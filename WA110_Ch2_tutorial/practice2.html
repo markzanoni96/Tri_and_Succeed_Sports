@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chapter 2 Practice</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway&display=swap" rel="stylesheet">
+    <style>
+    	
+    	@font-face {}
+    	body {
+
+    		background-color: rgb(222,128,60);
+    		color: rgb(255,255,255);
+    		font-family: 'Raleway'; sans-serif;
+    	}
+
+    	h1{
+    		font-family: 'Anton', sans-serif;
+    		font-size:2.2em;
+    		text-align: center;
+    		background-color: crimson;
+    		width: 72%;
+    		margin: 50px 0px 0px 25px;
+    		border: 5px solid yellow;
+    	}
+
+		h1:hover {
+			color: lightblue;
+			background-color: darkred;
+		}
+    	h1 ~ p { 
+    	    color: rgb(100, 0,230);
+    	}
+    	
+    	li {
+    		color: yellow;
+    		list-style-position: inside;
+    		padding-left: 100px;
+    	}
+
+    	li.common {
+    		color: lightblue;
+    	}
+
+    	li#special{
+    		color: red;
+    	}
+
+    	p {
+    		
+    		text-transform: capitalize;
+    	}
+
+    </style>
+    <link href="https://fonts.googleapis">	
+</head>
+<body>
+	<h1>Chapter 2 Practice</h1>
+	<p> CSS lets us style HTML elements to change their appearance.</p>
+	<p>Here's a paragraph that isn't nested anywhere!</p>
+
+	<article>
+		<p>With CSS you are able to change:</p>
+		<ul>
+			<li class="common">color</li>
+			<li>layout</li>
+			<li class="common">typograpghy</li>
+			<li id="special">animation</li>
+		</ul>
+		<div>
+			<aside>
+				<p>This is an indirect child of the "article" element.<p>
+			</aside>
+		</div>
+</body>
+</html>
